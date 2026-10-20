@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Ilustración abstracta de la evolución humana: una doble hélice de ADN, una red de nodos digitales y una secuencia de formas que crecen a lo largo de una curva luminosa.">
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0F1F"/>
+      <stop offset=".5" stop-color="#0B1022"/>
+      <stop offset="1" stop-color="#150C28"/>
+    </linearGradient>
+    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9B5CFF"/>
+      <stop offset="1" stop-color="#36D9F5"/>
+    </linearGradient>
+    <linearGradient id="hg2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#36D9F5"/>
+      <stop offset="1" stop-color="#9B5CFF"/>
+    </linearGradient>
+    <radialGradient id="hglow" cx="50%" cy="50%">
+      <stop offset="0" stop-color="#9B5CFF" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#9B5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hglow2" cx="50%" cy="50%">
+      <stop offset="0" stop-color="#36D9F5" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#36D9F5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="hsoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#hbg)"/>
+
+  <!-- rejilla sutil -->
+  <g stroke="#A7B0C4" stroke-opacity=".07" stroke-width="1">
+    <path d="M0 150H1600M0 300H1600M0 450H1600M0 600H1600M0 750H1600"/>
+    <path d="M200 0V900M400 0V900M600 0V900M800 0V900M1000 0V900M1200 0V900M1400 0V900"/>
+  </g>
+
+  <circle cx="1280" cy="230" r="300" fill="url(#hglow)" filter="url(#hsoft)" opacity=".8"/>
+  <circle cx="330" cy="700" r="260" fill="url(#hglow2)" filter="url(#hsoft)" opacity=".7"/>
+
+  <!-- doble hélice de ADN -->
+  <g fill="none" stroke="url(#hg)" stroke-width="6" stroke-linecap="round" opacity=".95">
+    <path d="M170 60 C 300 170, 40 300, 170 410 C 300 520, 40 650, 170 760 C 300 870, 40 990, 170 1100" transform="translate(0,-90)"/>
+    <path d="M330 60 C 200 170, 460 300, 330 410 C 200 520, 460 650, 330 760 C 200 870, 460 990, 330 1100" transform="translate(0,-90)"/>
+  </g>
+  <g stroke="#F5F7FF" stroke-opacity=".55" stroke-width="3.5" stroke-linecap="round">
+    <path d="M196 120H304M214 196H286M240 270H260M214 344H286M196 420H304M214 496H286M240 570H260M214 644H286M196 720H304"/>
+  </g>
+
+  <!-- curva de evolución con nodos crecientes -->
+  <g fill="none" stroke="url(#hg2)" stroke-width="4" opacity=".85">
+    <path d="M430 820 C 620 800, 700 690, 840 630 C 990 565, 1120 545, 1330 420"/>
+  </g>
+  <g>
+    <circle cx="470" cy="812" r="16" fill="#36D9F5" fill-opacity=".35" stroke="#36D9F5" stroke-width="3"/>
+    <circle cx="640" cy="770" r="24" fill="#36D9F5" fill-opacity=".4" stroke="#36D9F5" stroke-width="3"/>
+    <circle cx="800" cy="660" r="34" fill="#9B5CFF" fill-opacity=".45" stroke="#9B5CFF" stroke-width="3"/>
+    <circle cx="985" cy="570" r="46" fill="#9B5CFF" fill-opacity=".5" stroke="#9B5CFF" stroke-width="3"/>
+    <circle cx="1185" cy="495" r="60" fill="#36D9F5" fill-opacity=".35" stroke="#36D9F5" stroke-width="3"/>
+    <circle cx="1360" cy="405" r="78" fill="#9B5CFF" fill-opacity=".4" stroke="url(#hg)" stroke-width="4"/>
+    <circle cx="1360" cy="405" r="34" fill="#F5F7FF" fill-opacity=".85"/>
+  </g>
+
+  <!-- red digital -->
+  <g stroke="#36D9F5" stroke-opacity=".5" stroke-width="2" fill="none">
+    <path d="M1120 140 L1290 90 L1430 190 L1360 330 L1200 300 Z"/>
+    <path d="M1290 90 L1200 300M1430 190 L1360 330M1120 140 L1360 330"/>
+  </g>
+  <g fill="#36D9F5">
+    <circle cx="1120" cy="140" r="7"/><circle cx="1290" cy="90" r="9"/>
+    <circle cx="1430" cy="190" r="7"/><circle cx="1360" cy="330" r="8"/>
+    <circle cx="1200" cy="300" r="6"/>
+  </g>
+  <g fill="#9B5CFF">
+    <circle cx="700" cy="180" r="6"/><circle cx="860" cy="120" r="8"/>
+    <circle cx="620" cy="330" r="5"/><circle cx="780" cy="360" r="7"/>
+  </g>
+  <g stroke="#9B5CFF" stroke-opacity=".45" stroke-width="1.8" fill="none">
+    <path d="M700 180L860 120M700 180L620 330M620 330L780 360M860 120L780 360M780 360L1120 140"/>
+  </g>
+
+  <!-- partículas -->
+  <g fill="#F5F7FF" fill-opacity=".8">
+    <circle cx="520" cy="500" r="3"/><circle cx="940" cy="240" r="3.5"/>
+    <circle cx="1080" cy="700" r="3"/><circle cx="1500" cy="620" r="4"/>
+    <circle cx="380" cy="440" r="3"/><circle cx="1250" cy="760" r="3"/>
+  </g>
+
+  <!-- curva de piso luminosa -->
+  <path d="M0 860 C 400 820, 760 880, 1600 800" fill="none" stroke="url(#hg)" stroke-width="3" opacity=".55"/>
+</svg>

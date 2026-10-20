@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Ilustración futurista con una silueta humana, una red neuronal, un horizonte digital y un dispositivo portátil.">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1022"/><stop offset="1" stop-color="#160C2A"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9B5CFF"/><stop offset="1" stop-color="#36D9F5"/>
+    </linearGradient>
+    <linearGradient id="fhorizon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9B5CFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#36D9F5"/>
+      <stop offset="1" stop-color="#9B5CFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="fstar" cx="50%" cy="50%">
+      <stop offset="0" stop-color="#9B5CFF" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#9B5CFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#fbg)"/>
+
+  <circle cx="400" cy="230" r="260" fill="url(#fstar)" opacity=".6"/>
+
+  <!-- horizonte y rejilla -->
+  <path d="M0 370h800" stroke="url(#fhorizon)" stroke-width="3"/>
+  <g stroke="#36D9F5" stroke-opacity=".28" stroke-width="2">
+    <path d="M400 370L40 500M400 370L160 500M400 370L290 500M400 370L510 500M400 370L640 500M400 370L760 500"/>
+    <path d="M0 400h800M0 440h800M0 480h800"/>
+  </g>
+
+  <!-- silueta humana digital -->
+  <g fill="url(#fg)" fill-opacity=".92">
+    <circle cx="400" cy="120" r="44"/>
+    <path d="M400 168c-56 0-96 44-96 104v98h192v-98c0-60-40-104-96-104z"/>
+  </g>
+  <g stroke="#0A0D18" stroke-opacity=".55" stroke-width="3">
+    <path d="M352 210h96M344 250h112M356 290h88M340 330h120"/>
+    <path d="M400 168v198"/>
+  </g>
+
+  <!-- red neuronal -->
+  <g stroke="#36D9F5" stroke-opacity=".7" stroke-width="2.4" fill="none">
+    <path d="M150 120L260 70L330 150L230 220Z"/>
+    <path d="M150 120L230 220M260 70L330 150M260 70L560 60M330 150L520 130M560 60L520 130L660 180M560 60L660 180M230 220L330 150"/>
+  </g>
+  <g fill="#36D9F5">
+    <circle cx="150" cy="120" r="8"/><circle cx="260" cy="70" r="10"/>
+    <circle cx="330" cy="150" r="7"/><circle cx="230" cy="220" r="7"/>
+    <circle cx="560" cy="60" r="9"/><circle cx="520" cy="130" r="7"/>
+    <circle cx="660" cy="180" r="11"/>
+  </g>
+
+  <!-- dispositivo portátil -->
+  <g transform="translate(620,250)">
+    <rect x="0" y="0" width="90" height="120" rx="22" fill="#111827" stroke="url(#fg)" stroke-width="4"/>
+    <rect x="16" y="20" width="58" height="80" rx="10" fill="#0A0D18"/>
+    <path d="M24 74c12-24 24 8 34-14 6-14 10 4 12-4" fill="none" stroke="#4BE3B0" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="45" cy="110" r="5" fill="#36D9F5"/>
+  </g>
+
+  <!-- datos / burbujas -->
+  <g fill="none" stroke="#9B5CFF" stroke-width="3" opacity=".85">
+    <rect x="60" y="300" width="130" height="54" rx="14"/>
+    <path d="M78 322h74M78 338h50" stroke-linecap="round"/>
+    <path d="M96 354l14 24 14-24" fill="#111827"/>
+  </g>
+
+  <g font-family="monospace" font-size="15" fill="#A7B0C4" text-anchor="middle">
+    <text x="400" y="52">avance real / hipótesis / ética / acceso</text>
+  </g>
+</svg>

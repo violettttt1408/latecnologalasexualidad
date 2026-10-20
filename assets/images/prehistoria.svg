@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Ilustración de figuras rupestres y una figura femenina esquemática, inspirada en el arte prehistórico.">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1A120C"/><stop offset="1" stop-color="#0B0E1A"/>
+    </linearGradient>
+    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB454"/><stop offset="1" stop-color="#9B5CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#pbg)"/>
+  <g stroke="#FFB454" stroke-opacity=".10" stroke-width="1">
+    <path d="M0 100H800M0 200H800M0 300H800M0 400H800"/>
+    <path d="M160 0V500M320 0V500M480 0V500M640 0V500"/>
+  </g>
+
+  <!-- pared de cueva texturizada -->
+  <path d="M40 60 h720 v380 h-720 z" fill="#221A12" fill-opacity=".55" stroke="#FFB454" stroke-opacity=".3" stroke-width="2" rx="18"/>
+
+  <!-- manos almagre (siluetas) -->
+  <g fill="none" stroke="url(#pg)" stroke-width="3" stroke-linejoin="round" opacity=".9">
+    <path d="M120 350c0-30 22-52 50-52s50 22 50 52v60h-100z"/>
+    <path d="M132 320v-46M154 312v-58M176 316v-52M198 328v-40" stroke-linecap="round"/>
+  </g>
+
+  <!-- figura femenina esquemática (Venus) -->
+  <g fill="url(#pg)" opacity=".95">
+    <circle cx="330" cy="150" r="24"/>
+    <path d="M312 176c-14 26-34 46-34 86 0 44 26 74 52 74s52-30 52-74c0-40-20-60-34-86z"/>
+    <path d="M300 268c-16 20-30 44-30 74h44l6-56zM360 268c16 20 30 44 30 74h-44l-6-56z"/>
+  </g>
+
+  <!-- animales rupestres -->
+  <g fill="none" stroke="#FFB454" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M470 320c30-24 74-26 104-4 14 10 26 12 40 8M470 320l-8 44M540 336l-4 40M600 344l6 36M470 320c-16-16-40-14-52 4"/>
+    <path d="M640 176c26-20 62-20 86 0 12 10 22 12 34 8M640 176l-6 40M700 190l-4 36M754 196l4 32"/>
+  </g>
+
+  <!-- círculos y marcas -->
+  <g fill="none" stroke="url(#pg)" stroke-width="3">
+    <circle cx="470" cy="140" r="34"/>
+    <circle cx="470" cy="140" r="16"/>
+    <path d="M470 78v20M470 182v20M408 140h20M512 140h20" stroke-linecap="round"/>
+  </g>
+  <g stroke="#9B5CFF" stroke-width="3" stroke-linecap="round" opacity=".8">
+    <path d="M120 130l40 40M160 130l-40 40M220 108v56M250 108v56"/>
+  </g>
+
+  <!-- línea de tierra -->
+  <path d="M40 420h720" stroke="#FFB454" stroke-opacity=".5" stroke-width="3"/>
+</svg>

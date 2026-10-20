@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Ilustración inspirada en el arte del antiguo Egipto con un ankh, un loto y un papiro.">
+  <defs>
+    <linearGradient id="ebg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B160C"/><stop offset="1" stop-color="#0A0F20"/>
+    </linearGradient>
+    <linearGradient id="eg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD08A"/><stop offset="1" stop-color="#36D9F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#ebg)"/>
+
+  <!-- franjas murales -->
+  <g opacity=".28" stroke="#FFD08A" stroke-width="2" fill="none">
+    <path d="M0 70h800M0 430h800"/>
+    <path d="M60 70v-24M140 70v-24M220 70v-24M300 70v-24M380 70v-24M460 70v-24M540 70v-24M620 70v-24M700 70v-24M780 70v-24"/>
+  </g>
+
+  <!-- ankh grande -->
+  <g stroke="url(#eg)" stroke-width="9" fill="none" stroke-linecap="round">
+    <ellipse cx="250" cy="170" rx="56" ry="66"/>
+    <path d="M250 236v170M180 276h140"/>
+  </g>
+
+  <!-- columna / templo -->
+  <g fill="none" stroke="#FFD08A" stroke-width="6" stroke-linecap="round" opacity=".9">
+    <path d="M560 120h120M575 120v260M665 120v260M545 396h150M555 380h130"/>
+    <path d="M575 160h90M575 340h90"/>
+  </g>
+  <g stroke="#36D9F5" stroke-width="4" opacity=".8">
+    <path d="M590 190h60M590 214h60M590 238h40M590 262h60M590 286h48M590 310h60" stroke-linecap="round"/>
+  </g>
+
+  <!-- loto -->
+  <g fill="url(#eg)" opacity=".95">
+    <path d="M400 400c-34 0-62-26-62-58 18 8 36 8 52-2-8-16-6-36 8-50 8 18 22 30 40 34-4 18 4 36 20 46-24 16-42 30-58 30z"/>
+  </g>
+
+  <!-- papiro con líneas de escritura -->
+  <g>
+    <rect x="80" y="300" width="180" height="120" rx="8" fill="#2A2114" stroke="#FFD08A" stroke-opacity=".55" stroke-width="2"/>
+    <g stroke="#36D9F5" stroke-width="3" stroke-linecap="round" opacity=".85">
+      <path d="M98 326h140M98 348h110M98 370h140M98 392h90"/>
+    </g>
+    <g fill="#FFD08A" opacity=".8">
+      <rect x="98" y="316" width="14" height="6" rx="3"/>
+      <rect x="130" y="338" width="14" height="6" rx="3"/>
+      <rect x="164" y="360" width="14" height="6" rx="3"/>
+    </g>
+  </g>
+
+  <!-- disco solar -->
+  <circle cx="640" cy="60" r="34" fill="#FFB454" fill-opacity=".85"/>
+  <circle cx="640" cy="60" r="52" fill="none" stroke="#FFB454" stroke-opacity=".5" stroke-width="3"/>
+</svg>

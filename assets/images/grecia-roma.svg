@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Ilustración de una columna clásica griega, una ánfora y un text antiguo.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#131A2C"/><stop offset="1" stop-color="#0A0D18"/>
+    </linearGradient>
+    <linearGradient id="gg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#36D9F5"/><stop offset="1" stop-color="#9B5CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#gbg)"/>
+
+  <!-- arco de fondo -->
+  <path d="M180 460V250a160 160 0 0 1 320 0v210" fill="none" stroke="#A7B0C4" stroke-opacity=".18" stroke-width="3"/>
+
+  <!-- columna dórica -->
+  <g>
+    <rect x="150" y="120" width="140" height="22" rx="6" fill="url(#gg)" opacity=".9"/>
+    <rect x="162" y="142" width="116" height="250" fill="#F5F7FF" fill-opacity=".07" stroke="#A7B0C4" stroke-opacity=".45" stroke-width="2"/>
+    <g stroke="#36D9F5" stroke-opacity=".65" stroke-width="3">
+      <path d="M182 148v238M204 148v238M226 148v238M248 148v238"/>
+    </g>
+    <rect x="146" y="392" width="148" height="24" rx="6" fill="url(#gg)" opacity=".9"/>
+    <rect x="136" y="416" width="168" height="26" rx="6" fill="#F5F7FF" fill-opacity=".12"/>
+  </g>
+
+  <!-- ánfora -->
+  <g fill="none" stroke="url(#gg)" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M470 176h84l-10 40c34 26 52 62 52 104 0 66-52 108-84 108s-84-42-84-108c0-42 18-78 52-104z"/>
+    <path d="M470 190c-34-4-56-26-56-52 0-22 20-38 44-38M554 190c34-4 56-26 56-52 0-22-20-38-44-38"/>
+    <path d="M456 300h112"/>
+  </g>
+
+  <!-- text antiguo -->
+  <g>
+    <rect x="600" y="120" width="150" height="270" rx="10" fill="#161E33" stroke="#9B5CFF" stroke-opacity=".55" stroke-width="2"/>
+    <g stroke="#A7B0C4" stroke-opacity=".8" stroke-width="3.4" stroke-linecap="round">
+      <path d="M622 158h106M622 186h106M622 214h72M622 242h106M622 270h86M622 298h106M622 326h64M622 354h106"/>
+    </g>
+    <g fill="#36D9F5">
+      <circle cx="612" cy="158" r="4"/><circle cx="612" cy="242" r="4"/><circle cx="612" cy="326" r="4"/>
+    </g>
+  </g>
+
+  <path d="M40 460h720" stroke="#A7B0C4" stroke-opacity=".35" stroke-width="3"/>
+</svg>

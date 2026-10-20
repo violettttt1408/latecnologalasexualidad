@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Ilustración de una figura anatómica, un microscopio antiguo y una esfera celeste.">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F1626"/><stop offset="1" stop-color="#0A0D18"/>
+    </linearGradient>
+    <linearGradient id="ag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#36D9F5"/><stop offset="1" stop-color="#9B5CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#abg)"/>
+
+  <!-- figura anatómica (Vesalio) -->
+  <g stroke="url(#ag)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="230" cy="120" r="36"/>
+    <path d="M230 156v150M150 200h160M230 306l-52 120M230 306l52 120M170 210l-46 96M290 210l46 96"/>
+  </g>
+  <g stroke="#A7B0C4" stroke-opacity=".5" stroke-width="2.5" fill="none">
+    <path d="M230 190c-26 16-40 44-40 76M230 190c26 16 40 44 40 76M230 236v70"/>
+  </g>
+  <circle cx="230" cy="236" r="14" fill="#FF6B8A" fill-opacity=".85"/>
+  <circle cx="230" cy="236" r="26" fill="none" stroke="#FF6B8A" stroke-opacity=".6" stroke-width="3"/>
+
+  <!-- microscopio -->
+  <g>
+    <rect x="470" y="380" width="180" height="22" rx="8" fill="#1A2340" stroke="#A7B0C4" stroke-opacity=".5" stroke-width="2.5"/>
+    <path d="M500 380V300h40v80z" fill="#151D31" stroke="#36D9F5" stroke-opacity=".7" stroke-width="3"/>
+    <rect x="516" y="150" width="44" height="150" rx="16" fill="#151D31" stroke="#36D9F5" stroke-opacity=".7" stroke-width="3" transform="rotate(14 538 225)"/>
+    <path d="M560 300c40 0 70 30 70 70" fill="none" stroke="#9B5CFF" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="630" cy="360" r="16" fill="url(#ag)"/>
+    <path d="M544 340h60" stroke="#A7B0C4" stroke-opacity=".6" stroke-width="4"/>
+  </g>
+
+  <!-- esfera celeste / célula -->
+  <g fill="none" stroke="#9B5CFF" stroke-width="3" opacity=".9">
+    <circle cx="640" cy="140" r="76"/>
+    <ellipse cx="640" cy="140" rx="76" ry="30"/>
+    <ellipse cx="640" cy="140" rx="30" ry="76"/>
+  </g>
+  <circle cx="640" cy="140" r="10" fill="#36D9F5"/>
+
+  <!-- escala de medición -->
+  <g stroke="#FFB454" stroke-width="3" stroke-linecap="round" opacity=".85">
+    <path d="M440 470h320M440 470v-18M500 470v-10M560 470v-18M620 470v-10M680 470v-18M740 470v-10"/>
+  </g>
+
+  <path d="M40 60h300" stroke="#A7B0C4" stroke-opacity=".3" stroke-width="3"/>
+</svg>

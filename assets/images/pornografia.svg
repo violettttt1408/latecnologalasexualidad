@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Ilustración abstracta y no explícita de una pantalla dividida en bloques de datos con una silueta editorial y controles de privacidad.">
+  <defs>
+    <linearGradient id="pbg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#160F24"/><stop offset="1" stop-color="#0A0D18"/>
+    </linearGradient>
+    <linearGradient id="pgg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9B5CFF"/><stop offset="1" stop-color="#36D9F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#pbg2)"/>
+
+  <!-- pantalla -->
+  <g>
+    <rect x="150" y="90" width="420" height="270" rx="18" fill="#111827" stroke="#9B5CFF" stroke-opacity=".6" stroke-width="3"/>
+    <rect x="150" y="90" width="420" height="42" rx="18" fill="#1A2340"/>
+    <g fill="#A7B0C4" fill-opacity=".7">
+      <circle cx="180" cy="111" r="7"/><circle cx="204" cy="111" r="7"/><circle cx="228" cy="111" r="7"/>
+    </g>
+    <!-- bloques de contenido censurado / abstracto -->
+    <g fill="#1E2942">
+      <rect x="176" y="152" width="180" height="104" rx="10"/>
+      <rect x="372" y="152" width="172" height="48" rx="10"/>
+      <rect x="372" y="212" width="172" height="44" rx="10"/>
+      <rect x="176" y="272" width="368" height="34" rx="10"/>
+      <rect x="176" y="318" width="230" height="24" rx="10"/>
+    </g>
+    <!-- barra de "contenido sensible" -->
+    <g>
+      <rect x="192" y="170" width="148" height="68" rx="8" fill="#0A0D18" stroke="#FFB454" stroke-opacity=".7" stroke-width="3"/>
+      <path d="M204 204h124" stroke="#FFB454" stroke-width="8" stroke-linecap="round"/>
+      <path d="M244 186l40 36M284 186l-40 36" stroke="#FF6B8A" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g fill="#36D9F5" fill-opacity=".9">
+      <rect x="390" y="168" width="120" height="10" rx="5"/>
+      <rect x="390" y="186" width="86" height="10" rx="5"/>
+      <rect x="390" y="226" width="140" height="10" rx="5"/>
+      <rect x="390" y="244" width="70" height="10" rx="5"/>
+    </g>
+    <rect x="176" y="272" width="368" height="34" rx="10" fill="none" stroke="#9B5CFF" stroke-opacity=".65" stroke-width="2.5"/>
+    <path d="M360 360v34M300 400h120" stroke="#A7B0C4" stroke-opacity=".6" stroke-width="4"/>
+  </g>
+
+  <!-- candado de privacidad -->
+  <g transform="translate(470,250)">
+    <rect x="0" y="46" width="120" height="96" rx="18" fill="#151D31" stroke="#36D9F5" stroke-width="4"/>
+    <path d="M26 46V30a34 34 0 0 1 68 0v16" fill="none" stroke="#36D9F5" stroke-width="4"/>
+    <circle cx="60" cy="86" r="13" fill="url(#pgg)"/>
+    <path d="M60 99v20" stroke="url(#pgg)" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- persona / silueta editorial -->
+  <g fill="#9B5CFF" fill-opacity=".75">
+    <circle cx="96" cy="300" r="30"/>
+    <path d="M40 470c0-42 26-72 56-72s56 30 56 72z"/>
+  </g>
+
+  <!-- cifras de riesgo -->
+  <g font-family="monospace" font-size="16" fill="#A7B0C4">
+    <text x="210" y="40">sin consentimiento = vulneración</text>
+    <text x="210" y="64">reportar · bloquear · denunciar</text>
+  </g>
+</svg>

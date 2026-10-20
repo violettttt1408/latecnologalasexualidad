@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Ilustración educativa con una línea de electrocardiograma, una blíster de comprimidos, un condón empaquetado y un escudo sanitario.">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C1A22"/><stop offset="1" stop-color="#0A0D18"/>
+    </linearGradient>
+    <linearGradient id="sg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#36D9F5"/><stop offset="1" stop-color="#4BE3B0"/>
+    </linearGradient>
+    <linearGradient id="sg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9B5CFF"/><stop offset="1" stop-color="#36D9F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sbg)"/>
+
+  <!-- electrocardiograma -->
+  <g>
+    <rect x="60" y="80" width="680" height="140" rx="16" fill="#111827" stroke="#36D9F5" stroke-opacity=".5" stroke-width="2.5"/>
+    <path d="M80 160h120l24-56 30 112 26-74 22 40 34-38 26 16h96l24-48 30 96 26-64 22 32 34-28h110"
+          fill="none" stroke="url(#sg)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- blíster -->
+  <g transform="translate(80,268)">
+    <rect x="0" y="0" width="230" height="150" rx="18" fill="#151D31" stroke="#A7B0C4" stroke-opacity=".5" stroke-width="3"/>
+    <g fill="#9B5CFF" fill-opacity=".85">
+      <circle cx="52" cy="46" r="22"/><circle cx="115" cy="46" r="22"/><circle cx="178" cy="46" r="22"/>
+      <circle cx="52" cy="104" r="22"/><circle cx="115" cy="104" r="22"/>
+    </g>
+    <circle cx="178" cy="104" r="22" fill="#233054"/>
+    <g stroke="#0A0D18" stroke-width="4" stroke-linecap="round">
+      <path d="M42 46h20M105 46h20M168 46h20M42 104h20M105 104h20"/>
+    </g>
+  </g>
+
+  <!-- escudo sanitario -->
+  <g transform="translate(370,258)">
+    <path d="M80 0l80 34v74c0 56-44 92-80 104-36-12-80-48-80-104V34z"
+          fill="#101A2E" stroke="url(#sg2)" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M46 106l26 26 52-58" fill="none" stroke="#4BE3B0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- píldora + información -->
+  <g transform="translate(576,272)">
+    <rect x="0" y="0" width="140" height="60" rx="30" fill="#151D31" stroke="#36D9F5" stroke-width="4"/>
+    <path d="M70 0v60" stroke="#36D9F5" stroke-width="4"/>
+    <path d="M0 30a30 30 0 0 1 30-30h40v60H30a30 30 0 0 1-30-30z" fill="#36D9F5" fill-opacity=".85"/>
+    <g stroke="#A7B0C4" stroke-width="4" stroke-linecap="round" opacity=".7">
+      <path d="M8 96h124M8 122h92M8 148h124"/>
+    </g>
+  </g>
+
+  <g font-family="monospace" font-size="16" fill="#A7B0C4">
+    <text x="60" y="470">prevención · detección · atención · consentimiento</text>
+  </g>
+</svg>
